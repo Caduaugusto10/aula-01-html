@@ -14,7 +14,7 @@
 }
 
 body {
-    font-family: "Sedan", sans-serif;
+    font-family: "Dancing-Script", sans-serif;
     color: #140505;
     padding: 10px;
 }
@@ -24,9 +24,14 @@ header {
     border-radius: 6px;
     height: 150px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
+}
+#image-profile {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
 }
 
 #principal {
@@ -39,7 +44,7 @@ header {
     justify-content: space-between;
 }
 main {
-    background-color: #2600ff;
+    background-color: #2500f4;
     border-radius: 6px;
     height: 100%;
     width: 74%;
